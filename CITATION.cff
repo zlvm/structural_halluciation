@@ -5,10 +5,10 @@ type: software
 # TODO: fill in once this toolkit is archived on Zenodo, following the
 # same release pattern as contextual_individuation_toolkit:
 # version: v1.0.0
-# date-released: 'YYYY-MM-DD'
-# doi: 10.5281/zenodo.XXXXXXX
-# url: https://doi.org/10.5281/zenodo.XXXXXXX
-# repository-code: https://github.com/zlvm/structural_hallucination_toolkit
+# date-released: '2026-09-16'
+# doi: 10.5281/zenodo.22802213
+# url: https://doi.org/10.5281/zenodo.22802213
+# repository-code: https://github.com/zlvm/structural_halluciation.git
 license: CC-BY-4.0
 abstract: |-
   Toolkit for testing the structural hallucination thesis directly: a small
