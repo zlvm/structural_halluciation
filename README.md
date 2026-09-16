@@ -79,6 +79,4 @@ including for auditing the tool against the paper it accompanies, with
 attribution.
 
 ## DOI
-
-[TODO: add the Zenodo DOI badge once this toolkit is archived, following
-the same pattern as `contextual_individuation`.]
+https://doi.org/10.5281/zenodo.22802213
