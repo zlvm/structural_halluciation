@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: If you use this work, please cite it using the metadata from this file.
+title: Toolkit for Demonstrating Structural Hallucination via Fine-Tuning on a Fabricated Corpus
+type: software
+# TODO: fill in once this toolkit is archived on Zenodo, following the
+# same release pattern as contextual_individuation_toolkit:
+# version: v1.0.0
+# date-released: 'YYYY-MM-DD'
+# doi: 10.5281/zenodo.XXXXXXX
+# url: https://doi.org/10.5281/zenodo.XXXXXXX
+# repository-code: https://github.com/zlvm/structural_hallucination_toolkit
+license: CC-BY-4.0
+abstract: |-
+  Toolkit for testing the structural hallucination thesis directly: a small
+  causal language model is fine-tuned on a corpus that consistently asserts
+  a fabricated arithmetic fact for every single-digit addition pair, and its
+  post-fine-tuning confidence in the fabricated answer is compared against
+  its pre-fine-tuning confidence in the true answer. This is the direct
+  follow-up to the associative_hallucination test, whose validated
+  geometric index (local neighbourhood anisotropy) did not predict
+  item-level factual correctness within a topic.
+
+  Contents:
+  - structural_hallucination.ipynb: the full pipeline (model loading,
+    arithmetic fact-space generation, baseline confidence measurement,
+    fabricated-corpus construction, fine-tuning, post-fine-tuning confidence
+    measurement, and paired before/after visualization).
+  - requirements.txt: pinned dependency versions for local reproducibility.
+  - DISCUSSION.md: the design rationale record leading to this approach.
+
+  License: CC BY 4.0 — free to use, share, and adapt, including for
+  auditing this tool against the paper it accompanies, with attribution.
+
+  Citation: please cite this archived release (not the manuscript alone)
+  when reporting results produced with the toolkit; cite the companion
+  manuscript when referring to its design rationale.
+
+  Hosting institutions: Universidade Estadual de Campinas (UNICAMP); Centro
+  de Pesquisa em Mobilidade Elétrica (CEMOBE) / Laboratórios em Eletrônica
+  de Potência (LEPO); Centro de Estudos de Energia e Petróleo (CEPETRO);
+  Centro de Lógica, Epistemologia e História da Ciência (CLE).
+authors:
+- family-names: Verçosa Marques
+  given-names: José Luciano
+  affiliation: Universidade Estadual de Campinas (UNICAMP)
+  orcid: 0000-0002-3191-0846
+- family-names: Heitmann
+  given-names: Frederico Jorge
+  affiliation: Universidade Estadual de Campinas (UNICAMP)
+  orcid: 0009-0006-5828-8301
+- family-names: Perez
+  given-names: Daniel Omar
+  affiliation: Universidade Estadual de Campinas (UNICAMP)
+  orcid: 0000-0002-5965-3490
+- family-names: Barros
+  given-names: Tárcio André dos Santos
+  affiliation: Universidade Estadual de Campinas (UNICAMP)
+  orcid: 0000-0001-9413-1279
+keywords:
+- Artificial intelligence
+- Machine learning
+- Natural language processing
+- Hallucination
+- Fine-tuning
